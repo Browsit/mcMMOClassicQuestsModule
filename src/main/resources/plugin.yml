@@ -1,0 +1,8 @@
+name: MavenQuests
+version: 0.1
+description: Quests module for Maven projects
+author: Browsit
+website: https://github.com/Browsit/MavenQuestsModule
+
+main: org.browsit.mavenquests
+depend: [Example, Quests]
