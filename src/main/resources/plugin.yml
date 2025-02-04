@@ -1,8 +1,8 @@
-name: MavenQuests
-version: 0.1
-description: Quests module for Maven projects
+name: mcMMOClassicQuests
+version: 1.0
+description: Quests module for mcMMO Classic
 author: Browsit
-website: https://github.com/Browsit/MavenQuestsModule
+website: https://github.com/Browsit/mcMMOClassicQuestsModule
 
-main: org.browsit.mavenquests
-depend: [Example, Quests]
+main: org.browsit.mcmmoclassicquests.mcMMOClassicModule
+depend: [mcMMO, Quests]

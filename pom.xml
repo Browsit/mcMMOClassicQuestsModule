@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.browsit.mavenquests</groupId>
-    <artifactId>MavenQuestsModule</artifactId>
-    <version>0.1</version>
+    <groupId>org.browsit.mcmmoclassicquests</groupId>
+    <artifactId>mcMMOClassicQuestsModule</artifactId>
+    <version>1.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,6 +21,10 @@
             <id>codemc-repo</id>
             <url>https://repo.codemc.io/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -33,7 +37,13 @@
         <dependency>
             <groupId>me.pikamug.quests</groupId>
             <artifactId>quests-core</artifactId>
-            <version>5.0.0-rc.2</version>
+            <version>5.1.6</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.mcMMO-Dev</groupId>
+            <artifactId>mcMMO-Classic</artifactId>
+            <version>master-82f97cbe04-1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
