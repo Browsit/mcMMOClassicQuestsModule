@@ -5,7 +5,7 @@ Adds mcMMO Classic objectives/rewards/requirements to Quests
 
 ## Download
 Distributed through these fine vendors:
-- Lectern (Coming soon!)
+- Lectern (https://lectern.browsit.org/resources/resource/55-mcmmo-classic-quests-module/)
 
 ## Usage
 DO NOT PUT IN YOUR /plugins FOLDER. Place in /Quests/modules only!
